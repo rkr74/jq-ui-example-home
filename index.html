@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font-awesome-kit's code here -->
+
+    <!--CSS links -->
+    <link rel="stylesheet" type="text/css" href="jquery/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>jq-ui-Example</title>
+  </head>
+  <body>
+    <header class="bg-dark">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="https://rkr74.github.io/jq-ui-example-1/">Example-1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="https://rkr74.github.io/jq-ui-example-2/">Example-2</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input id="tags" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- Example:Draggabel -->
+          <div class="col-lg-12">
+            <h1>Example:Draggabel,Sortable</h1>
+          <div class="sort_able">
+            <ul>
+            <li id="draggable" class="ui-state-highlight">Drag me down</li>
+          </ul>
+           
+          <ul id="sortable">
+            <li class=" ui-state-default">Item 1</li>
+            <li class=" ui-state-default">Item 2</li>
+            <li class=" ui-state-default">Item 3</li>
+            <li class=" ui-state-default">Item 4</li>
+            <li class=" ui-state-default">Item 5</li>
+          </ul>
+          </div>
+            <div class="drag">
+              <div id="dragg_able" class="ui-widget-content">
+              <p>Drag me around</p>
+            </div>
+            </div>
+          </div><hr>
+          <!-- Example:Draggabel -->
+
+          <!-- droppable -->
+          <h1>Example:Droppable</h1>
+          <div id="draggableDrop" class="ui-widget-content">
+            <p>Drag me to my target</p>
+          </div>
+           
+          <div id="droppable" class="ui-widget-header">
+            <p>Drop here</p>
+        </div><hr>
+          <!-- droppable -->
+
+          <!-- resizable -->
+          <h1>Example:Resizable</h1>
+          <div id="resizable" class="ui-widget-content mb-5">
+            <h3 class="ui-widget-header">Resizable</h3>
+          </div><hr>
+          <!-- resizable -->
+
+          <!-- selectable -->
+          <h1>Example:Selectable</h1>
+          <ul id="selectable">
+            <li class="ui-widget-content">Item 1</li>
+            <li class="ui-widget-content">Item 2</li>
+            <li class="ui-widget-content">Item 3</li>
+            <li class="ui-widget-content">Item 4</li>
+            <li class="ui-widget-content">Item 5</li>
+            <li class="ui-widget-content">Item 6</li>
+            <li class="ui-widget-content">Item 7</li>
+          </ul><hr>
+          <!-- selectable -->
+
+          <!-- storable -->
+          <h1>Example:Storable</h1>
+          <div class="column">
+ 
+          <div class="portlet">
+            <div class="portlet-header">Feeds</div>
+            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+          </div>
+         
+          <div class="portlet">
+            <div class="portlet-header">News</div>
+            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+          </div>
+         
+        </div>
+         
+        <div class="column">
+         
+          <div class="portlet">
+            <div class="portlet-header">Shopping</div>
+            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+          </div>
+         
+        </div>
+         
+        <div class="column">
+         
+          <div class="portlet">
+            <div class="portlet-header">Links</div>
+            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+          </div>
+         
+          <div class="portlet">
+            <div class="portlet-header">Images</div>
+            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+          </div>
+         
+        </div><hr>
+          <!-- storable -->
+
+          <!-- accordion -->
+          <h1>Example:Accordion</h1>
+          <div id="accordion">
+          <h3>Section 1</h3>
+          <div>
+            <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+          </div>
+          <h3>Section 2</h3>
+          <div>
+            <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+          </div>
+          <h3>Section 3</h3>
+          <div>
+            <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+            <ul>
+              <li>List item one</li>
+              <li>List item two</li>
+              <li>List item three</li>
+            </ul>
+          </div>
+          <h3>Section 4</h3>
+          <div>
+            <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+          </div>
+        </div>
+          <!-- accordion -->
+
+
+
+
+      </div>
+    </section>
+
+
+
+    <!--JS links -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="jquery/jquery-ui.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>

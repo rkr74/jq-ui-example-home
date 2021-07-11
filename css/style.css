@@ -1,0 +1,82 @@
+.drag {
+	display: inline-block;
+}
+#dragg_able { 
+	width: 150px;
+ 	height: 150px;
+ 	background-color: greenyellow;
+ 	text-align: center;
+    padding: 0.5em;
+}
+.sort_able {
+	float: left;
+	display: inline-block;
+}
+.sort_able ul { 
+	list-style-type: none; 
+	margin: 0; padding: 0; 
+	margin-bottom: 10px; 
+}
+.sort_able li { 
+	margin: 5px; 
+	padding: 5px; 
+	width: 150px; 
+}
+/*droppable*/
+#gallery { float: left; width: 65%; min-height: 12em; }
+.gallery.custom-state-active { background: #eee; }
+.gallery li { float: left; width: 96px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+.gallery li h5 { margin: 0 0 0.4em; cursor: move; }
+.gallery li a { float: right; }
+.gallery li a.ui-icon-zoomin { float: left; }
+.gallery li img { width: 100%; cursor: move; }
+ 
+#trash { float: right; width: 32%; min-height: 18em; padding: 1%; }
+#trash h4 { line-height: 16px; margin: 0 0 0.4em; }
+#trash h4 .ui-icon { float: left; }
+#trash .gallery h5 { display: none; }
+
+/*droppable*/
+#draggableDrop { width: 100px; height: 100px; padding: 0.5em; background-color: greenyellow; float: left; margin: 10px 10px 10px 0; }
+#droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+
+/*resizable*/
+#resizable { width: 150px; height: 150px; padding: 0.5em; }
+#resizable h3 { text-align: center; margin: 0; }
+
+/*selectable*/
+#feedback { font-size: 1.4em; }
+#selectable .ui-selecting { background: #FECA40; }
+#selectable .ui-selected { background: #F39814; color: white; }
+#selectable { list-style-type: none; margin: 0; padding: 0; width: 20%; }
+#selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; cursor: pointer;}
+
+/*storable*/
+.column {
+    width: 170px;
+    float: left;
+    padding-bottom: 100px;
+}
+.portlet {
+    margin: 0 1em 1em 0;
+    padding: 0.3em;
+}
+  .portlet-header {
+    padding: 0.2em 0.3em;
+    margin-bottom: 0.5em;
+    position: relative;
+}
+.portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -8px;
+}
+.portlet-content {
+    padding: 0.4em;
+}
+.portlet-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 50px;
+}
